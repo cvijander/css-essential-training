@@ -16,8 +16,25 @@ body {
     background: #f6f6f6;
 }
 
+/* links */ 
+a {
+    color: #3c8453;
+}
+a:hover {
+    color: #bcaa96;
+    text-decoration: none;
+}
+
 /* home 
 -------------------*/
+.home {
+    background: url(../images/bg-home-office-studio.jpg) no-repeat;
+    background-size: cover;
+}
+
+.home .content-wrapper {
+    background: rgb(255 255 255 / 0.9);
+}
 
 /* resume 
 ---------------------------------*/
@@ -37,4 +54,22 @@ body {
 
 /* footer 
 ------------------------------*/
+footer {
+    background: #222;
+    color: #d3d4d6;
+}
+
+footer a {
+    color: #bcaa96;
+}
+
+footer a:hover {
+    color: #3c8453;
+}
+
+.btn {
+    background: #3c8453;
+    color: #f6f6f6;
+    text-decoration: none;
+}
 
