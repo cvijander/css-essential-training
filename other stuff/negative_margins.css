@@ -1,0 +1,47 @@
+.stacked .box2 {
+  margin-top: -20px;
+  margin-bottom: -20px;
+  margin-right: -20px;
+  margin-left: -20px;
+}
+
+.side-by-side .box5 {
+ display: inline;
+ margin-right: 20px;
+}
+
+.box1 {
+    background: gray;
+    height: 50px;
+    width: 200px;
+}
+
+.box2 {
+    background: pink;
+    height: 50px;
+    width: 200px;
+}
+
+.box3 {
+    background:aqua;
+    height: 50px;
+    width: 200px;
+}
+
+.box4 {
+    background: gray;
+    width: 50px;
+    height: 200px;
+}
+
+.box5 {
+    background: pink;
+    width: 50px;
+    height: 200px;
+}
+
+.box6 {
+    background: aqua;
+    width: 50px;
+    height: 200px;
+}

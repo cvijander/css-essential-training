@@ -17,3 +17,28 @@ div {
 .box-2 {
     box-sizing: border-box;
 }
+
+p {
+    background: lightgreen;
+}
+
+span {
+    background: yellow;
+    font-size: 16px;
+}
+
+.first-block {
+    margin-bottom: 0;
+}
+
+.second-block {
+    margin-top: 0;
+}
+
+.close-gap {
+   /* margin-left: -4px;*/
+}
+
+.container {
+    font-size: 0;
+}

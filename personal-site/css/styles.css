@@ -11,9 +11,21 @@ Off-white  #f6f6f6
 /* Global styles 
 ---------------------------*/
 
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html, body {
+ height: 100%;
+}
 
 body {
     background: #f6f6f6;
+    margin: 0;
 }
 
 /* links */ 
@@ -38,6 +50,8 @@ a:hover {
 
 /* resume 
 ---------------------------------*/
+
+
 
 /* profile 
 -----------------------*/
@@ -72,4 +86,21 @@ footer a:hover {
     color: #f6f6f6;
     text-decoration: none;
 }
+
+.socials {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.socials img {
+    width: 32px;
+
+}
+
+.socials li {
+    display: inline-block;
+}
+
+
 
