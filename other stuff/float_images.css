@@ -1,0 +1,24 @@
+img {
+    float: left;
+    margin: 10px;
+}
+
+
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    border: 5px solid black;
+    font-family: avenir, sans-serif;
+}
+
+p {
+    background: #CDCDCD;
+    padding: 10px;
+}
+
+.clear {
+    /* clear: left; */
+    /* clear:right; */ 
+    clear: both;
+}
