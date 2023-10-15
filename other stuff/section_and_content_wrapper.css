@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+
+section {
+    background: lightblue;
+}
+
+.content-wrapper {
+    padding: 20px;
+    width: 400px;
+    margin:  0 auto;
+}
