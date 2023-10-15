@@ -1,0 +1,47 @@
+.stacked .box2 {
+    margin-top: -20px;
+    margin-bottom: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.side-by-side .box2 {
+    margin-top: -20px;
+    margin-bottom: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+
+
+
+------------------------------*/ section {
+    margin: 30px;
+}
+
+.box1 {
+    background: rgba(0, 0, 0, 50%);
+}
+
+.box2 {
+    background: rgba(255, 0, 255, 50%);
+}
+
+.box3 {
+    background: rgba(0, 128, 128, 50%);
+}
+
+.stacked div {
+    width: 210px;
+    height: 70px;
+}
+
+.side-by-side {
+    margin-top: 20px;
+}
+
+.side-by-side div {
+    float: left;
+    height: 210px;
+    width: 70px;
+}
