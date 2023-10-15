@@ -1,0 +1,58 @@
+/* root element */
+html {
+    background: gray;
+}
+
+/* viewport */
+body {
+    background: white;
+    height: 400px;
+}
+
+.block1 {
+    /*   display: none; */
+    background: pink;
+    position: relative;
+    z-index: 1;
+}
+
+.block2 {
+    /*   display: none; */
+    background: palevioletred;
+    margin: -60px 0 0 20px;
+}
+
+.float {
+    /*   display: none; */
+    background: lightblue;
+    float: left;
+    margin: -150px 0 0 100px;
+}
+
+.inline {
+    /*   display: none; */
+    background: blue;
+    color: white;
+    padding: 10px 40px 10px 10px;
+    position: relative;
+    z-index: 2;
+}
+
+.position {
+    /*   display: none; */
+    background: orange;
+    position: relative;
+    left: 180px;
+    top: -165px;
+    height: 110px;
+}
+
+/* 
+Presentation styles. No changes 
+are necessary for the exercise. */
+div {
+    padding: 20px;
+    width: 200px;
+    height: 80px;
+    font-family: avenir, sans-serif;
+}

@@ -63,7 +63,7 @@ a:hover {
     content: "";
     display: block;
     height:375px ;
-    background-size: cove
+    background-size: cover;
     background-position: center;
 
 }
