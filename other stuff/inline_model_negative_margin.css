@@ -1,0 +1,19 @@
+p {
+    background: lightblue;
+}
+
+span {
+    background:yellow;
+}
+
+.close-gap {
+    margin-left: -4px;
+}
+
+.first-block {
+    margin-bottom: 0;
+}
+
+.second-block {
+    margin-top: 0;
+}
