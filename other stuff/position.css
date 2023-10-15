@@ -1,0 +1,59 @@
+.wrapper {
+    border: 1px solid black;
+       position: relative; 
+}
+
+.parent {
+    border: 1px solid red;
+       position: relative; 
+}
+
+/* relativna pozicija */ 
+.relative {
+    background: lightblue;
+       position: relative; 
+      top: 20px; 
+      bottom: 20px; 
+      right: 20px;
+      left: 20px; 
+}
+
+/* absolutna pozicija u odnosu na trenutno pogled */ 
+.absolute {
+    background: pink;
+      position: absolute; 
+      right: 25%; 
+      bottom: 5%; 
+}
+
+ /* stalno fiksirana pozicija */ 
+.fixed {
+    background: lightgreen;
+      position: fixed; 
+      top: 10; 
+      right: 0; 
+}
+
+/* za meni na sajtu npr  */ 
+.sticky {
+    background: lightgray;
+       position: sticky; 
+      top: 10px; 
+}
+
+
+
+
+
+
+.wrapper {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.box {
+    width: 60px;
+    height: 50px;
+    padding: 10px;
+}
