@@ -28,6 +28,14 @@ body {
     margin: 0;
 }
 
+.content-wrapper {
+    margin: 0 auto;
+   max-width: 900px;
+   padding: 30px;
+
+
+}
+
 /* links */ 
 a {
     color: #3c8453;
@@ -50,7 +58,15 @@ a:hover {
 
 /* resume 
 ---------------------------------*/
+.resume header::before {
+    background: url(../images/bg-home-office-studio.jpg);
+    content: "";
+    display: block;
+    height:375px ;
+    background-size: cover;
+    background-position: center;
 
+}
 
 
 /* profile 
