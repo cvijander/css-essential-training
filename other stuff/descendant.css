@@ -1,0 +1,14 @@
+a {
+    color:black;
+}
+ section a {
+    color: green;
+ }
+
+ section p a {
+    color: pink;
+ }
+
+ .container a {
+    color: orange;
+ }
