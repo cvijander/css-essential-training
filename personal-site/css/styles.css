@@ -111,6 +111,12 @@ padding: 30px;
 /* work experience
 ---------------------*/
 
+.work-item {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    column-gap: 20px;
+}
+
 /* education 
 -------------------------*/ 
 

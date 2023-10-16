@@ -1,0 +1,13 @@
+header {
+    font-weight: bold;
+    font-style: italic;
+    font-style: oblique;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+em {
+    font-style: normal;
+}
