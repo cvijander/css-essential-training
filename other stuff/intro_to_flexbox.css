@@ -1,0 +1,27 @@
+.flex-container {
+    background: powderblue;
+    border: 5px solid darkslategrey;
+       display: flex; 
+       width: 300px;
+       flex-wrap: wrap; 
+       flex-direction: column; 
+}
+
+.flex-item {
+    border: 4px solid white;
+    padding: 10px;
+       flex: 1 0 100px; 
+       box-sizing: border-box;
+}
+
+.item-1 {
+       flex-grow: 2; 
+}
+
+
+/* 
+Presentation styles. No changes 
+are necessary for the exercise. */
+body {
+    font-family: Avenir, sans-serif;
+}

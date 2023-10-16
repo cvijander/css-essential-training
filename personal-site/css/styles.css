@@ -77,6 +77,11 @@ a:hover {
     border-bottom: 2px dashed #d3d4d6;
 }
 
+.download-link {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+}
 /* profile 
 -----------------------*/
 .project-item {
