@@ -120,6 +120,9 @@ padding: 30px;
 footer {
     background: #222;
     color: #d3d4d6;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
 }
 
 footer a {
@@ -149,6 +152,11 @@ footer a:hover {
 
 .socials li {
     display: inline-block;
+    margin-left: 10px;
+}
+
+.socials img:hover {
+  opacity: 0.5;
 }
 
 
