@@ -1,0 +1,12 @@
+.grid-container {
+    border: 4px solid black;
+      display: grid; 
+      width: 400px;
+       grid-template-columns: 100px repeat(2, 1fr); 
+       grid-template-rows: 100px ; 
+}
+
+.grid-item {
+    border: 2px solid mediumvioletred;
+    padding: 10px;
+}
